@@ -20,7 +20,7 @@ namespace ProgramControlling
 #else
             var servicesToRun = new ServiceBase[] 
             { 
-                new Service1() 
+                new ControllingService() 
             };
             ServiceBase.Run(servicesToRun);
 #endif

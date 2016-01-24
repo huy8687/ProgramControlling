@@ -28,8 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
+            // 
+            // ControllingService
+            // 
+            this.CanHandlePowerEvent = true;
+            this.CanHandleSessionChangeEvent = true;
+            this.CanPauseAndContinue = true;
+            this.CanShutdown = true;
             this.ServiceName = "Service1";
+
         }
 
         #endregion
